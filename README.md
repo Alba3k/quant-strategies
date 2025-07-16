@@ -37,6 +37,6 @@ The strategy generates a position signal (`LONG` or `SHORT`) only when **both co
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/yourusername/quant-strategies.git
+git clone https://github.com/Alba3k/quant-strategies.git
 cd quant-strategies
 pip install -r requirements.txt
