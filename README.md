@@ -28,6 +28,8 @@ Here’s how the EMA + RSI strategy looks in action:
 
 <img src="assets/preview_ema_cross_rsi.png" alt="Strategy Preview" width="800" style="border-radius: 12px;">
 
+---
+
 ## 🧩 Features
 
 - 🧱 Modular architecture for easy strategy expansion
