@@ -1,20 +1,40 @@
-# Quant Strategies
+# 🧠 Quant Strategies
 
-📈 A modular collection of algorithmic trading strategies built in Python. Designed for crypto markets and adaptable to other asset classes, this repository provides clean, testable implementations of technical strategies using pandas, NumPy, and pandas-ta.
+📈 A modular collection of algorithmic trading strategies built in Python. Designed for crypto markets and adaptable to other asset classes, this repository provides clean, testable implementations of technical strategies using `pandas`, `NumPy`, and `pandas-ta`.
 
-## Included Strategies
+---
 
-- **EMA + RSI Strategy**  
-  Combines short- and long-term exponential moving averages with the Relative Strength Index to identify directional bias and momentum. Generates long or short signals based on trend confirmation and strength.
+## 🚀 Included Strategies
 
-## Features
+### 🔁 EMA + RSI Strategy
 
-- Modular architecture for easy strategy expansion
-- Clean integration with CCXT for real-time crypto data
-- Lightweight and readable codebase
-- CLI-ready for live monitoring and automation
+This strategy combines two key technical indicators:
 
-## Installation
+- **EMA13 vs EMA30**: Measures short-term vs long-term trend direction
+- **RSI (Relative Strength Index)**: Gauges momentum and potential overbought/oversold conditions
+
+#### 📊 Signal Logic
+
+| Signal Type | Condition | Interpretation |
+|-------------|-----------|----------------|
+| 🟢 **Buy (LONG)** | `EMA13 > EMA30` and `RSI > 50` | Uptrend confirmed and momentum strong |
+| 🔴 **Sell (SHORT)** | `EMA13 < EMA30` and `RSI < 50` | Downtrend confirmed and momentum weak |
+
+The strategy generates a position signal (`LONG` or `SHORT`) only when **both conditions align**, reducing noise and false entries.
+
+---
+
+## 🧩 Features
+
+- 🧱 Modular architecture for easy strategy expansion
+- 🔌 Seamless integration with [CCXT](https://github.com/ccxt/ccxt) for real-time crypto data
+- 🧼 Clean and readable codebase for rapid development
+- 🖥️ CLI-ready for live monitoring and automation
+- 📦 Lightweight dependencies for fast deployment
+
+---
+
+## ⚙️ Installation
 
 ```bash
 git clone https://github.com/yourusername/quant-strategies.git
