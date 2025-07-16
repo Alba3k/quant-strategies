@@ -28,7 +28,7 @@ The strategy generates a position signal (`LONG` or `SHORT`) only when **both co
 
 Here’s how the EMA + RSI strategy looks in action:
 
-<img src="assets/preview_ema_cross_rsi.png" style="border: 2px solid #333; border-radius: 8px;" width="600">
+<img src="assets/preview_ema_cross_rsi.png" style="border: 2px solid #333; border-radius: 8px;" width="720">
 
 ---
 
