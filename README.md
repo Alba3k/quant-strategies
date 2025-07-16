@@ -22,7 +22,11 @@ This strategy combines two key technical indicators:
 
 The strategy generates a position signal (`LONG` or `SHORT`) only when **both conditions align**, reducing noise and false entries.
 
-![Strategy Preview](assets/preview_ema_cross_rsi.png)
+## 📷 Strategy Preview
+
+Here’s how the EMA + RSI strategy looks in action:
+
+![EMA + RSI Signal](assets/preview_ema_cross_rsi.png)
 ---
 
 ## 🧩 Features
