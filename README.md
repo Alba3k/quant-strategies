@@ -7,7 +7,7 @@ Designed for crypto markets and adaptable to other asset classes, this repositor
 
 ## 🚀 Included Strategies
 
-### 🔁 EMA + RSI Strategy
+### :zero: :one: EMA + RSI Strategy
 
 This strategy combines two key technical indicators:
 
