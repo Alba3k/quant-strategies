@@ -11,8 +11,8 @@ Designed for crypto markets and adaptable to other asset classes, this repositor
 
 This strategy combines two key technical indicators:
 
-`1. **EMA 13 vs EMA 30**: Measures short-term vs long-term trend direction`
-`2. **RSI (Relative Strength Index)**: Gauges momentum and potential overbought/oversold conditions`
+1. **EMA 13 vs EMA 30**: Measures short-term vs long-term trend direction
+2. **RSI (Relative Strength Index)**: Gauges momentum and potential overbought/oversold conditions
 
 #### :two: `MACD + Stochastic Combo`
 
