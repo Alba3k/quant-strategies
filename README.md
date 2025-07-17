@@ -14,32 +14,19 @@ This strategy combines two key technical indicators:
 1. **EMA13 vs EMA30**: Measures short-term vs long-term trend direction
 2. **RSI (Relative Strength Index)**: Gauges momentum and potential overbought/oversold conditions
 
+### :two: MACD + Stochastic Combo
 
----
+Combines trend-following MACD with momentum-based Stochastic oscillator to identify high-probability reversal zones. Indicators Used:
 
-### 🔁 MACD + Stochastic Combo
+1. **MACD (12, 26, 9)**: Measures trend direction and momentum
+2. **Stochastic Oscillator (14, 3)**: Detects overbought/oversold conditions
 
-Combines trend-following MACD with momentum-based Stochastic oscillator to identify high-probability reversal zones.
 
-#### 📊 Indicators Used
-- **MACD (12, 26, 9)**: Measures trend direction and momentum
-- **Stochastic Oscillator (14, 3)**: Detects overbought/oversold conditions
-
-#### 🔁 Signal Logic
-
-```python
-:green_book: **Buy (LONG)**:  
-MACD line crosses above Signal line AND Stochastic %K crosses above %D in oversold zone (<20)
-```
-```python
-:closed_book: **Sell (SHORT)**:  
-MACD line crosses below Signal line AND Stochastic %K crosses below %D in overbought zone (>80)
-```
-
-#### 📦 Output Columns
-`MACD`, `Signal`, `%K`, `%D`, `MACD_Signal`, `Stoch_Signal`, `Position`
-
-This strategy is ideal for swing entries near exhaustion zones, with confirmation from both trend and momentum indicators.
+:three:	
+:four:	
+:five:	
+:six:	
+:seven:	
 
 ---
 
