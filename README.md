@@ -11,7 +11,7 @@ Designed for crypto markets and adaptable to other asset classes, this repositor
 
 This strategy combines two key technical indicators:
 
-1. **EMA13 vs EMA30**: Measures short-term vs long-term trend direction
+1. **EMA 13 vs EMA 30**: Measures short-term vs long-term trend direction
 2. **RSI (Relative Strength Index)**: Gauges momentum and potential overbought/oversold conditions
 
 #### :two: `MACD + Stochastic Combo`
@@ -42,9 +42,9 @@ Uses volatility-based stop-loss logic to manage breakout entries. Indicators Use
 
 Identifies strong directional trends using layered EMAs. Indicators Used:
 
-1. **EMA7**
-2. **EMA21**
-3. **EMA50**
+1. **EMA 7**
+2. **EMA 21**
+3. **EMA 50**
 	
 #### :six: `Stochastic + Price Action`	
 
@@ -53,6 +53,29 @@ Combines momentum and trend confirmation for cleaner entries. Indicators Used:
 1. **Stochastic (14, 3, 3)**
 2. **SMA50**
 
+#### :seven: `EMA Regular Order Strategy`
+
+EMA Regular Order Strategy Uses short-term EMA crossover (EMA4 vs EMA9) to generate entry signals. 
+Ideal for intraday trading on minute or 15-minute timeframes. Indicators Used:
+
+1. **EMA 4 fast**
+2. **EMA 9**
+
+#### :eight: `MACD Bracket Order Strategy`
+
+MACD Bracket Order Strategy Based on MACD line crossing the signal line, with potential for bracket orders (TP/SL).
+Ideal for intraday trading on minute or 15-minute timeframes. Indicators Used:
+
+1. **MACD**
+
+
+
+🔹 silver_channel_strategy
+Silver Channel Strategy Trades price bounces within dynamic channels built from recent highs and lows.
+
+🟢 Long: Price touches lower channel
+
+🔴 Short: Price touches upper channel Suited for short-term swing setups on 1H or 4H timeframes.
 ---
 
 ## 🧩 Features
