@@ -46,7 +46,7 @@ Identifies strong directional trends using layered EMAs. Indicators Used:
 2. **EMA21**
 3. **EMA50**
 	
-#### :six: Stochastic + Price Action	
+#### :six: `Stochastic + Price Action`	
 
 Combines momentum and trend confirmation for cleaner entries. Indicators Used:
 
