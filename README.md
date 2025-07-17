@@ -24,11 +24,29 @@ The strategy generates a position signal (`LONG` or `SHORT`) only when **both co
 
 ---
 
-## 📷 Strategy Preview
+### 🧠 MACD + Stochastic Combo
 
-Here’s how the EMA + RSI strategy looks in action:
+Combines trend-following MACD with momentum-based Stochastic oscillator to identify high-probability reversal zones.
 
-<img src="assets/preview_ema_cross_rsi.png" style="border: 2px solid #333; border-radius: 8px;" width="720">
+#### 📊 Indicators Used
+- **MACD (12, 26, 9)**: Measures trend direction and momentum
+- **Stochastic Oscillator (14, 3)**: Detects overbought/oversold conditions
+
+#### 🔁 Signal Logic
+- 🟢 **Buy (LONG)**:  
+  MACD line crosses above Signal line  
+  AND  
+  Stochastic %K crosses above %D in oversold zone (<20)
+
+- 🔴 **Sell (SHORT)**:  
+  MACD line crosses below Signal line  
+  AND  
+  Stochastic %K crosses below %D in overbought zone (>80)
+
+#### 📦 Output Columns
+`MACD`, `Signal`, `%K`, `%D`, `MACD_Signal`, `Stoch_Signal`, `Position`
+
+This strategy is ideal for swing entries near exhaustion zones, with confirmation from both trend and momentum indicators.
 
 ---
 
