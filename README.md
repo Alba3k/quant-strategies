@@ -68,14 +68,11 @@ Ideal for intraday trading on minute or 15-minute timeframes. Indicators Used:
 
 1. **MACD**
 
+#### :nine: `Silver Channel Strategy`
 
-
-🔹 silver_channel_strategy
 Silver Channel Strategy Trades price bounces within dynamic channels built from recent highs and lows.
+Suited for short-term swing setups on 1H or 4H timeframes.
 
-🟢 Long: Price touches lower channel
-
-🔴 Short: Price touches upper channel Suited for short-term swing setups on 1H or 4H timeframes.
 ---
 
 ## 🧩 Features
