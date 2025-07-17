@@ -21,12 +21,25 @@ Combines trend-following MACD with momentum-based Stochastic oscillator to ident
 1. **MACD (12, 26, 9)**: Measures trend direction and momentum
 2. **Stochastic Oscillator (14, 3)**: Detects overbought/oversold conditions
 
+### :three: Bollinger Bands Squeeze Breakout
 
-:three:	
+Combines volatility breakout detection with momentum filtering to capture explosive moves while avoiding false entries. 
+This strategy is ideal for breakout traders who want to avoid chasing exhausted moves. 
+It works well in high-volatility environments and can be paired with volume filters or trailing stops.
+Indicators Used:
+
+1. **Bollinger Bands (20, 2)**: Measures volatility and price extremes
+2. **RSI (14)**: Confirms momentum and filters overbought/oversold conditions
+
+
+	
 :four:	
 :five:	
 :six:	
 :seven:	
+
+
+
 
 ---
 
