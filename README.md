@@ -21,6 +21,31 @@ This strategy combines two key technical indicators:
 | 🔴 **Sell (SHORT)** | `EMA13 < EMA30` and `RSI < 50` | Downtrend confirmed and momentum weak |
 
 The strategy generates a position signal (`LONG` or `SHORT`) only when **both conditions align**, reducing noise and false entries.
+<h3>📊 Signal Logic</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left;">Signal Type</th>
+      <th style="text-align:left;">Condition</th>
+      <th style="text-align:left;">Interpretation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>🟢 <strong>Buy (LONG)</strong></td>
+      <td><code>EMA13 &gt; EMA30</code> and <code>RSI &gt; 50</code></td>
+      <td>Uptrend confirmed and momentum strong</td>
+    </tr>
+    <tr>
+      <td>🔴 <strong>Sell (SHORT)</strong></td>
+      <td><code>EMA13 &lt; EMA30</code> and <code>RSI &lt; 50</code></td>
+      <td>Downtrend confirmed and momentum weak</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em>The strategy generates a position signal (<strong>LONG</strong> or <strong>SHORT</strong>) only when both conditions align, reducing noise and false entries.</em></p>
 
 ---
 
