@@ -24,7 +24,7 @@ The strategy generates a position signal (`LONG` or `SHORT`) only when **both co
 
 ---
 
-### 🧠 MACD + Stochastic Combo
+### 🔁 MACD + Stochastic Combo
 
 Combines trend-following MACD with momentum-based Stochastic oscillator to identify high-probability reversal zones.
 
@@ -34,14 +34,10 @@ Combines trend-following MACD with momentum-based Stochastic oscillator to ident
 
 #### 🔁 Signal Logic
 - 🟢 **Buy (LONG)**:  
-  MACD line crosses above Signal line  
-  AND  
-  Stochastic %K crosses above %D in oversold zone (<20)
+  MACD line crosses above Signal line AND Stochastic %K crosses above %D in oversold zone (<20)
 
 - 🔴 **Sell (SHORT)**:  
-  MACD line crosses below Signal line  
-  AND  
-  Stochastic %K crosses below %D in overbought zone (>80)
+  MACD line crosses below Signal line AND Stochastic %K crosses below %D in overbought zone (>80)
 
 #### 📦 Output Columns
 `MACD`, `Signal`, `%K`, `%D`, `MACD_Signal`, `Stoch_Signal`, `Position`
