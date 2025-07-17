@@ -7,12 +7,12 @@ Designed for crypto markets and adaptable to other asset classes, this repositor
 
 ## 🚀 Included Strategies
 
-### :zero::one: EMA + RSI Strategy
+### :one: EMA + RSI Strategy
 
 This strategy combines two key technical indicators:
 
-- **EMA13 vs EMA30**: Measures short-term vs long-term trend direction
-- **RSI (Relative Strength Index)**: Gauges momentum and potential overbought/oversold conditions
+> **EMA13 vs EMA30**: Measures short-term vs long-term trend direction
+> **RSI (Relative Strength Index)**: Gauges momentum and potential overbought/oversold conditions
 
 #### 📊 Signal Logic
 
