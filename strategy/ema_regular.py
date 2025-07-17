@@ -1,3 +1,6 @@
+import pandas as pd
+import numpy as np
+
 def ema_regular_strategy(df, ema_fast=4, ema_slow=9):
     """
     EMA Regular Order Strategy
