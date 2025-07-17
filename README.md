@@ -31,15 +31,27 @@ Indicators Used:
 1. **Bollinger Bands (20, 2)**: Measures volatility and price extremes
 2. **RSI (14)**: Confirms momentum and filters overbought/oversold conditions
 
+### :four: ATR Trailing Stop
 
+Uses volatility-based stop-loss logic to manage breakout entries. Indicators Used:
+
+1. **ATR (14)**: Measures average volatility
+2. **High/Low Breakouts (20)**: Entry triggers
+
+### :five: Triple EMA Momentum
+
+Identifies strong directional trends using layered EMAs. Indicators Used:
+
+1. **EMA7**
+2. **EMA21**
+3. **EMA50**
 	
-:four:	
-:five:	
-:six:	
-:seven:	
+### :six: Stochastic + Price Action	
 
+Combines momentum and trend confirmation for cleaner entries. Indicators Used:
 
-
+1. **Stochastic (14, 3, 3)**
+2. **SMA50**
 
 ---
 
