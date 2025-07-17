@@ -47,6 +47,32 @@ The strategy generates a position signal (`LONG` or `SHORT`) only when **both co
 
 <p><em>The strategy generates a position signal (<strong>LONG</strong> or <strong>SHORT</strong>) only when both conditions align, reducing noise and false entries.</em></p>
 
+<h3>📊 Signal Logic</h3>
+
+<table style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="text-align: left; padding: 8px;">⚡ Signal Type</th>
+      <th style="text-align: left; padding: 8px;">📐 Condition</th>
+      <th style="text-align: left; padding: 8px;">🧠 Interpretation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #eafaf1;">
+      <td style="padding: 8px;"><strong>🟢 Buy (LONG)</strong></td>
+      <td style="padding: 8px;"><code>EMA13 &gt; EMA30</code> and <code>RSI &gt; 50</code></td>
+      <td style="padding: 8px;">Uptrend confirmed and momentum strong</td>
+    </tr>
+    <tr style="background-color: #fdecea;">
+      <td style="padding: 8px;"><strong>🔴 Sell (SHORT)</strong></td>
+      <td style="padding: 8px;"><code>EMA13 &lt; EMA30</code> and <code>RSI &lt; 50</code></td>
+      <td style="padding: 8px;">Downtrend confirmed and momentum weak</td>
+    </tr>
+  </tbody>
+</table>
+
+<p style="margin-top: 12px;"><em>📌 The strategy generates a position signal (<strong>LONG</strong> or <strong>SHORT</strong>) only when both conditions align, reducing noise and false entries.</em></p>
+
 ---
 
 ### 🔁 MACD + Stochastic Combo
