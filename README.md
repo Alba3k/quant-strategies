@@ -7,21 +7,21 @@ Designed for crypto markets and adaptable to other asset classes, this repositor
 
 ## 🚀 Included Strategies
 
-#### :one: EMA + RSI Strategy
+#### :one: `EMA + RSI Strategy`
 
 This strategy combines two key technical indicators:
 
 1. **EMA13 vs EMA30**: Measures short-term vs long-term trend direction
 2. **RSI (Relative Strength Index)**: Gauges momentum and potential overbought/oversold conditions
 
-#### :two: MACD + Stochastic Combo
+#### :two: `MACD + Stochastic Combo`
 
 Combines trend-following MACD with momentum-based Stochastic oscillator to identify high-probability reversal zones. Indicators Used:
 
 1. **MACD (12, 26, 9)**: Measures trend direction and momentum
 2. **Stochastic Oscillator (14, 3)**: Detects overbought/oversold conditions
 
-#### :three: Bollinger Bands Squeeze Breakout
+#### :three: `Bollinger Bands Squeeze Breakout`
 
 Combines volatility breakout detection with momentum filtering to capture explosive moves while avoiding false entries. 
 This strategy is ideal for breakout traders who want to avoid chasing exhausted moves. 
@@ -31,14 +31,14 @@ Indicators Used:
 1. **Bollinger Bands (20, 2)**: Measures volatility and price extremes
 2. **RSI (14)**: Confirms momentum and filters overbought/oversold conditions
 
-#### :four: ATR Trailing Stop
+#### :four: `ATR Trailing Stop`
 
 Uses volatility-based stop-loss logic to manage breakout entries. Indicators Used:
 
 1. **ATR (14)**: Measures average volatility
 2. **High/Low Breakouts (20)**: Entry triggers
 
-#### :five: Triple EMA Momentum
+#### :five: `Triple EMA Momentum`
 
 Identifies strong directional trends using layered EMAs. Indicators Used:
 
