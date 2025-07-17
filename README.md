@@ -33,11 +33,11 @@ Combines trend-following MACD with momentum-based Stochastic oscillator to ident
 - **Stochastic Oscillator (14, 3)**: Detects overbought/oversold conditions
 
 #### 🔁 Signal Logic
-- 🟢 **Buy (LONG)**:  
-  MACD line crosses above Signal line AND Stochastic %K crosses above %D in oversold zone (<20)
-
-- 🔴 **Sell (SHORT)**:  
-  MACD line crosses below Signal line AND Stochastic %K crosses below %D in overbought zone (>80)
+> 🟢 **Buy (LONG)**:  
+> MACD line crosses above Signal line AND Stochastic %K crosses above %D in oversold zone (<20)
+>
+> 🔴 **Sell (SHORT)**:  
+> MACD line crosses below Signal line AND Stochastic %K crosses below %D in overbought zone (>80)
 
 #### 📦 Output Columns
 `MACD`, `Signal`, `%K`, `%D`, `MACD_Signal`, `Stoch_Signal`, `Position`
