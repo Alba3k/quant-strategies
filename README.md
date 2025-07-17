@@ -73,7 +73,7 @@ Ideal for intraday trading on minute or 15-minute timeframes. Indicators Used:
 Silver Channel Strategy Trades price bounces within dynamic channels built from recent highs and lows.
 Suited for short-term swing setups on 1H or 4H timeframes.
 
-#### :one: :zero: `RSI Divergence Strategy (Enhanced)`
+#### :one::zero: `RSI Divergence Strategy (Enhanced)`
 
 Detects hidden bullish/bearish divergences between price and RSI. Indicators Used:
 
