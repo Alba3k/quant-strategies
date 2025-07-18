@@ -79,6 +79,8 @@ Detects hidden bullish/bearish divergences between price and RSI. Indicators Use
 
 1. **RSI (14)**
 
+and many others...
+
 ---
 
 ## 🧩 Features
